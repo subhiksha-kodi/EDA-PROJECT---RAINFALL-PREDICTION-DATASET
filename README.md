@@ -91,8 +91,3 @@ Created additional features for better modeling:
 - Future scope: hyperparameter tuning, LSTM for time-series weather, deployment.  
 
 ---
-
-## 🙌 Acknowledgements  
-
-- Dataset: **Australian Bureau of Meteorology (BoM)**  
-- Cleaned for predictive modeling and ML research.  
