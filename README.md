@@ -61,4 +61,66 @@ Rainfall varies significantly across **months and regions**.
 ### 🌬️ Wind & Rain  
 Strong winds and certain directions (NW, W) are more linked to rainfall.  
 
-![Wind Direction vs RainTomorrow](plots/wind_vs_ra)
+![Wind Direction vs RainTomorrow](plots/wind_vs_rain.png)  
+
+---
+
+### 🔍 Extra Visuals  
+- Rainfall per location  
+  ![Rainfall per Location](plots/rainfall_per_location.png)  
+
+- Overall Humidity Distribution  
+  ![Overall Humidity](plots/overall_humidity.png)  
+
+- Yearly Rainfall Trends  
+  ![Yearly Rainfall Trend](plots/yearly_rainfall_trend.png)  
+
+- Correlation Heatmap  
+  ![Correlation Heatmap](plots/correlation_heatmap.png)  
+
+- Proportion of Rainy Days  
+  ![Proportion of Rain Days](plots/proportion_raindays.png)  
+
+---
+
+## 🔹 Feature Engineering  
+
+Created additional features for better modeling:  
+- `Season` (from Date)  
+- `Humidity_Diff` = Humidity9am – Humidity3pm  
+- `Temp_Diff` = MaxTemp – MinTemp  
+- `Rainfall_Category` (Low / Medium / High)  
+
+---
+
+## 🔹 Modeling  
+
+- Logistic Regression (baseline)  
+- Random Forest & XGBoost (best performers)  
+- Class imbalance handled via **SMOTE** + class weights  
+
+📌 **Result:** Random Forest achieved best recall and balanced accuracy.  
+
+---
+
+## 📌 Insights  
+
+- 🌡️ Afternoon humidity is the **most important factor** for rainfall prediction.  
+- 🌧️ If it rained today, it’s more likely to rain tomorrow.  
+- 🌬️ Wind direction and strong gusts also impact rain probability.  
+- ⚖️ Dataset is imbalanced (more “No Rain” days).  
+
+---
+
+## ✨ Conclusion  
+
+- Weather variables contain **predictive signals** for rainfall forecasting.  
+- **Feature engineering + tree-based models** improve accuracy.  
+- Future scope: hyperparameter tuning, LSTM for time-series weather, deployment.  
+
+---
+
+## 🙌 Acknowledgements  
+
+- Dataset: **Australian Bureau of Meteorology (BoM)**  
+- Cleaned for predictive modeling and ML research.  
