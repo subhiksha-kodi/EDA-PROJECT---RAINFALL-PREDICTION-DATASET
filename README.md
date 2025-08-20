@@ -24,62 +24,34 @@ The goal is to forecast whether it will rain **tomorrow** based on today’s wea
 ## 🔹 EDA & Visualizations  
 
 ### 🌧️ Rainfall Distribution  
-Most days record very little rain (<5mm). Heavy rainfall is rare.  
-
 ![Rainfall Distribution](plots/rainfall_distribution.png)  
 
----
-
-### 🌡️ Temperature Trends  
-Temperatures mostly lie between **10°C and 25°C**.  
-
-![Temperature Distribution](plots/temperature_distribution.png)  
-
----
-
 ### 💧 Humidity vs RainTomorrow  
-High **afternoon humidity (>80%)** is strongly associated with rainfall the next day.  
-
 ![Humidity vs RainTomorrow](plots/humidity_vs_rainfall.png)  
 
----
+### 📍 Rainfall per Location  
+![Rainfall per Location](plots/rainfall_per_location.png)  
 
-### 🌞 Sunshine vs Rainfall  
-Rainy days → fewer sunshine hours.  
+### 💧 Overall Humidity Distribution  
+![Overall Humidity](plots/overall_humidity.png)  
 
-![Sunshine vs Rainfall](plots/sunshine_vs_rain.png)  
+### 📆 Yearly Rainfall Trend  
+![Yearly Rainfall Trend](plots/yearly_rainfall_trend.png)  
 
----
+### 🌬️ Wind Direction Analysis  
+![Wind Direction](plots/wind_direction.png)  
 
-### 📅 Seasonal Rainfall Trends  
-Rainfall varies significantly across **months and regions**.  
+### 🌞 Monthly Sunshine Trends  
+![Monthly Sunshine](plots/monthly_sunshine.png)  
 
-![Monthly Rainfall Trends](plots/monthly_rainfall.png)  
+### 🌬️ Wind Speed Distribution  
+![Wind Speed](plots/wind_speed.png)  
 
----
+### 🔥 Correlation Heatmap  
+![Correlation Heatmap](plots/correlation_heatmap.png)  
 
-### 🌬️ Wind & Rain  
-Strong winds and certain directions (NW, W) are more linked to rainfall.  
-
-![Wind Direction vs RainTomorrow](plots/wind_vs_rain.png)  
-
----
-
-### 🔍 Extra Visuals  
-- Rainfall per location  
-  ![Rainfall per Location](plots/rainfall_per_location.png)  
-
-- Overall Humidity Distribution  
-  ![Overall Humidity](plots/overall_humidity.png)  
-
-- Yearly Rainfall Trends  
-  ![Yearly Rainfall Trend](plots/yearly_rainfall_trend.png)  
-
-- Correlation Heatmap  
-  ![Correlation Heatmap](plots/correlation_heatmap.png)  
-
-- Proportion of Rainy Days  
-  ![Proportion of Rain Days](plots/proportion_raindays.png)  
+### 🌧️ Proportion of Rainy Days  
+![Proportion of Rain Days](plots/proportion_raindays.png)  
 
 ---
 
